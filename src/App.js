@@ -5,6 +5,7 @@ import Cards from "./Cards/Cards.js";
 
 function App() {
   return <div className="App">
+    <h1>Заголовок</h1>
     <Cards />
   </div>;
 }
