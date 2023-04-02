@@ -1,14 +1,17 @@
 
 import "./App.css";
-import Header from './Header/Header.js';
-import BcImage from '.'
+
+import Menu from "./Menu/Menu";
+import Cards from "./Cards/Cards";
 
 function App() {
-  return <div className="App">
-    
-    <Header /> 
+  return (
+  <>
+    <Menu />
+    <Cards />
 
-  </div>;
+  </>
+);
 }
 
 export default App;
