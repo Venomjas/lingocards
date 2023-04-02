@@ -1,0 +1,123 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+  }
+  
+  .main {
+    height: 100px;
+    margin-top: 70px;
+    border: 7px solid black;
+    border-radius: 50px;
+    background-color: rgba(0, 187, 212, 0.5);
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .orange {
+    background-color: rgba(255, 137, 57, 1);
+  }
+  
+  .header {
+    border: 7px solid black;
+    border-radius: 50px;
+  
+  }
+  
+  .header-image {
+    display: flex;
+    border-radius: 50px;
+    z-index: 2;
+  }
+  .logo-button{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-image{
+    
+      width: 120px;
+      margin-top: 15px;
+  }
+  
+  .language-button {
+  
+    display: flex;
+    align-items: center;
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 14px;
+    position: relative;
+    padding-right: 30px;
+  }
+  
+  .language-button::after {
+    background: url(./Shape.png);
+    height: 12px;
+    width: 12px;
+    content: "";
+    position: absolute;
+    right: 10px;
+  }
+  
+  /* .black-line {
+    height: 10px;
+    border-radius: 20px;
+    background-color: black;
+  } */
+  
+  .container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header {
+    height: 100px;
+    background-color: rgba(255, 137, 57, 1);
+    display: flex;
+    box-shadow:1px 5px 10px;
+  
+  }
+  
+  .eng-flag {
+  
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+  }
+  
+  .navigation{
+    align-items: center;
+    margin-left: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-list {
+    padding: 7px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: 50px;
+    list-style-type: none;
+  }
+  
+  .header-img{
+    height: 100px;
+    margin-left: 42px;
+  }

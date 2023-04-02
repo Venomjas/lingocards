@@ -1,13 +1,13 @@
 
 import "./App.css";
-import Cards from "./Cards/Cards.js";
-import Menu from './Menu/Menu.js';
+import Header from './Header/Header.js';
+import BcImage from '.'
 
 function App() {
   return <div className="App">
     <h1>Заголовок</h1>
-    <Cards />
-    <Menu />
+              <Header /> <h1>Заголовок</h1>
+
   </div>;
 }
 
