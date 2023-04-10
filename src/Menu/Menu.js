@@ -1,40 +1,31 @@
-import { useState } from 'react';
+
 import './Menu.css';
 
-function  Menu () {
-  
-  const [isOpen, setOpen] = useState(false)
-
-  const toggleMenu = () => {
-    console.log('click')
-    setOpen(!isOpen)
-  }
-    
+function  Menu (props) {
+   
   return(
   <div className='menu-container'>
-    <button onClick={toggleMenu}>Меню</button>
-
-    <nav className={`nav ${isOpen ? 'active' : ''}`}>
+    <nav className='nav'>
       <ul className='ul'>
-        <li className='nouns'><a href="#">существительные</a>
+        <li className='nouns'><a href="#" className='part-of-speech'>существительные</a>
           <ul className='complexity'>
-            <li><a href="#">сложность A</a></li>
-            <li><a href="#">сложность B</a></li>
-            <li><a href="#">сложность C</a></li>
+            <li className='complexity-item'><a href="/DataNounsA" className='link'>сложность A</a></li>
+            <li className='complexity-item'><a href="/DataNounsB" className='link'>сложность B</a></li>
+            <li className='complexity-item'><a href="/DataNounsC" className='link'>сложность C</a></li>
           </ul>
         </li>
-        <li className='adjectives'><a href="#">прилагательные</a>
+        <li className='adjectives'><a href="#" className='part-of-speech'>прилагательные</a>
           <ul className='complexity'>
-            <li><a href="#">сложность A</a></li>
-            <li><a href="#">сложность B</a></li>
-            <li><a href="#">сложность C</a></li>
+            <li className='complexity-item'><a href="DataAdjectivesA" className='link'>сложность A</a></li>
+            <li className='complexity-item'><a href="DataAdjectivesB" className='link'>сложность B</a></li>
+            <li className='complexity-item'><a href="DataAdjectivesC" className='link'>сложность C</a></li>
           </ul>
         </li>
-        <li className='verbs'><a href="#">глаголы</a>
+        <li className='verbs'><a href="#" className='part-of-speech'>глаголы</a>
           <ul className='complexity'>
-            <li><a href="#">сложность A</a></li>
-            <li><a href="#">сложность B</a></li>
-            <li><a href="#">сложность C</a></li>
+            <li className='complexity-item'><a href="DataVerbsA" className='link'>сложность A</a></li>
+            <li className='complexity-item'><a href="DataVerbsB" className='link'>сложность B</a></li>
+            <li className='complexity-item'><a href="DataVerbsC" className='link'>сложность C</a></li>
           </ul>
         </li>
       </ul>

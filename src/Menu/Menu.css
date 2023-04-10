@@ -2,39 +2,60 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  display: block;
+  margin-left: 0;
+  background-color: var(--menu-container-color);
 }
 .nav {
   width: 200px;
   height: 100vh;
-  background-color: #333;
-  color: #fff;
-  position: fixed;
-  top: 0;
-  left: -200px;
   transition: all 0.3s ease;
+  padding: 30px 0;
 }
-.complexity {
-   background-color: coral;
+.nouns {
+  padding: 7px 20px;
+  margin: 6px 0;
 }
+
+.adjectives {
+  padding: 30px 0;
+}
+
+.complexity-item {
+  padding: 4px;
+  border-radius: 10px;
+  background-color: var(--complexity-color);
+  margin: 7px 0;  
+}
+
+.link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .nav ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0; 
+  padding: 7px;
 }
+
 .nav ul li {
   padding: 10px;
   border-bottom: 1px solid #555;
 }
+
 .nav ul li a {
   color: #fff;
   text-decoration: none;
 }
-.nav ul li:hover {
-  background-color: #555;
-}
+
 .nav.active {
   left: 0;
+
 }
+
 @media screen and (max-width: 768px) {
   .nav {
     width: 100%;

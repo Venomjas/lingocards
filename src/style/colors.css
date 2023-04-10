@@ -1,0 +1,24 @@
+:root{
+    --card-color: #f3afaf; 
+}
+:root {
+    --card-back-color: #b86c6c;
+}
+:root {
+    --complexity-color: #b2a38d;
+}
+:root {
+    --menu-container-color: rgb(172, 172, 172);
+}
+:root {
+    --header-color: #df1212;
+}
+:root {
+    --button-theme-on: #83f274;
+}
+:root {
+    --button-theme-off: #f1aaaa;
+}
+:root {
+    --button-theme: #8b6f6f;
+}
