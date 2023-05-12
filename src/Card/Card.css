@@ -35,12 +35,22 @@
   position: absolute;
   z-index: 1;
   background: var(--card-color);
-  color: white;
   cursor: pointer;
 }
+
+.dark .flip .card .front {  
+  background: var(--dark-card-color); 
+  color: white;
+}
+
 .flip .card .back {
   transform: rotatex(-180deg);
-  background-color: (--card-back-color);
+  background-color: var(--card-back-color);
   color: black;
   cursor: pointer;
 }
+.dark .flip .card .back {
+  background-color: var(--dark-card-back-color);
+  color: white;
+} 
+

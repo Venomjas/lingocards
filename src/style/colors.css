@@ -1,24 +1,19 @@
 :root{
-    --card-color: #f3afaf; 
-}
-:root {
-    --card-back-color: #b86c6c;
-}
-:root {
+    --card-color: #c8cac7;
+    --card-back-color: #e8c96c;
     --complexity-color: #b2a38d;
-}
-:root {
-    --menu-container-color: rgb(172, 172, 172);
-}
-:root {
-    --header-color: #df1212;
-}
-:root {
-    --button-theme-on: #83f274;
-}
-:root {
-    --button-theme-off: #f1aaaa;
-}
-:root {
+    --menu-container-color: #c8cac7;
+    --header-color: #b7b7b7;
+    --button-theme-on: #ddebdd;
+    --button-theme-off: #a3ada2;
     --button-theme: #8b6f6f;
+    --add-new-word-color: #e9d8d8;
+    --part-of-speech: #ffffff;
+
+    --dark-part-of-speech: #4b504b;
+    --dark-header-color: #4b504b;
+    --dark-card-color: #4b504b;
+    --dark-card-back-color: #ecd48b;
+    --dark-complexity-color: #63605b;
+    --dark-menu-container-color: #63605b;
 }

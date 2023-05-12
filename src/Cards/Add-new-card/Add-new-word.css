@@ -1,0 +1,10 @@
+.add-new-word {
+    display: flex;
+  }
+.word {
+    padding: 5px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: var(--add-new-word-color);
+}

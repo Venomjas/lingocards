@@ -1,4 +1,5 @@
 
+import { ROUTES } from '../routes';
 import './Menu.css';
 
 function  Menu (props) {
@@ -7,21 +8,21 @@ function  Menu (props) {
   <div className='menu-container'>
     <nav className='nav'>
       <ul className='ul'>
-        <li className='nouns'><a href="#" className='part-of-speech'>существительные</a>
+        <li className='nouns part-of-speech'><a href="#">существительные</a>
           <ul className='complexity'>
             <li className='complexity-item'><a href="/DataNounsA" className='link'>сложность A</a></li>
             <li className='complexity-item'><a href="/DataNounsB" className='link'>сложность B</a></li>
             <li className='complexity-item'><a href="/DataNounsC" className='link'>сложность C</a></li>
           </ul>
         </li>
-        <li className='adjectives'><a href="#" className='part-of-speech'>прилагательные</a>
+        <li className='adjectives part-of-speech'><a href="#" >прилагательные</a>
           <ul className='complexity'>
-            <li className='complexity-item'><a href="DataAdjectivesA" className='link'>сложность A</a></li>
+            <li className='complexity-item'><a href={ROUTES.ADJECTIVES.A} className='link'>сложность A</a></li>
             <li className='complexity-item'><a href="DataAdjectivesB" className='link'>сложность B</a></li>
             <li className='complexity-item'><a href="DataAdjectivesC" className='link'>сложность C</a></li>
           </ul>
         </li>
-        <li className='verbs'><a href="#" className='part-of-speech'>глаголы</a>
+        <li className='verbs part-of-speech'><a href="#">глаголы</a>
           <ul className='complexity'>
             <li className='complexity-item'><a href="DataVerbsA" className='link'>сложность A</a></li>
             <li className='complexity-item'><a href="DataVerbsB" className='link'>сложность B</a></li>

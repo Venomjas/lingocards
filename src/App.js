@@ -14,6 +14,7 @@ import { DataVerbsA } from "./Data/DataVerbs/DataVerbsA";
 import { DataVerbsB } from "./Data/DataVerbs/DataVerbsB";
 import { DataVerbsC } from "./Data/DataVerbs/DataVerbsC";
 import './style/colors.css'
+import { ROUTES } from "./routes";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
     <div className="box">
       <Menu />
       <Routes>
-        <Route path ="/DataAdjectivesA" element = {<Cards data={DataAdjectivesA} />}/>  
+        <Route path={ROUTES.ADJECTIVES.A} element={<Cards data={DataAdjectivesA} />}/>  
         <Route path ="/DataAdjectivesB" element = {<Cards data={DataAdjectivesB} />}/>
         <Route path ="/DataAdjectivesC" element = {<Cards data={DataAdjectivesC} />}/>
 

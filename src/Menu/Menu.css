@@ -6,6 +6,9 @@
   margin-left: 0;
   background-color: var(--menu-container-color);
 }
+.dark .menu-container {
+  background-color: var(--dark-menu-container-color);
+}
 .nav {
   width: 200px;
   height: 100vh;
@@ -16,7 +19,15 @@
   padding: 7px 20px;
   margin: 6px 0;
 }
-
+.part-of-speech {
+  color: black;
+}
+.part-of-speech {
+  color: var(--part-of-speech);
+}
+.dark .part-of-speech {
+  color: var(--dark-path-of-speech);
+}
 .adjectives {
   padding: 30px 0;
 }
